@@ -4,8 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/862245ed62.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <main class="container">
+      <header class="header">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+      </header>
+      <div class="game-player p1">
+        <p class="user">You - <span class="count-user">0</span></p>
+        <!-- <p class="user">You - <span class="count-user"></span> <span class="user-selection"></span></p> -->
+        <div class="icons user-icons flex space-between">
+          <i class="far fa-hand-rock"></i>
+          <i class="far fa-hand-paper"></i>
+          <i class="far fa-hand-scissors"></i>
+          <i class="far fa-hand-lizard"></i>
+          <i class="far fa-hand-spock"></i>
+          <!-- <i class="far fa-hand-rock" data-character="rock"></i>
+            <i class="far fa-hand-paper" data-character="paper"></i>
+            <i class="far fa-hand-scissors" data-character="scissors"></i>
+            <i class="far fa-hand-lizard" data-character="lizard"></i>
+            <i class="far fa-hand-spock" data-character="spock"></i> -->
+        </div>
+      </div>
+      <div class="game-player p2">
+        <p class="user">Computer - <span class="count-user">0</span></p>
+        <!-- <p class="user">You - <span class="count-user"></span> <span class="user-selection"></span></p> -->
+        <div class="icons user-icons flex space-between">
+          <i class="far fa-hand-rock"></i>
+          <i class="far fa-hand-paper"></i>
+          <i class="far fa-hand-scissors"></i>
+          <i class="far fa-hand-lizard"></i>
+          <i class="far fa-hand-spock"></i>
+          <!-- <i class="far fa-hand-rock" data-character="rock"></i>
+            <i class="far fa-hand-paper" data-character="paper"></i>
+            <i class="far fa-hand-scissors" data-character="scissors"></i>
+            <i class="far fa-hand-lizard" data-character="lizard"></i>
+            <i class="far fa-hand-spock" data-character="spock"></i> -->
+        </div>
+      </div>
+      <div class="reset"><i class="fas fa-sync-alt"></i></div>
+      <div class="result">You Won!</div>
+      <!-- <div class="result"></div> -->
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>
