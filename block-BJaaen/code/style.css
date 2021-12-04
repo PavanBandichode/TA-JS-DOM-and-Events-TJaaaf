@@ -202,3 +202,9 @@ body {
   font-weight: 700;
   margin: 1rem 0;
 }
+.selected {
+  color: red;
+  box-shadow: 0 2px 6px black;
+  padding: 1rem;
+  border-radius: 50%;
+}
